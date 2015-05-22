@@ -7074,11 +7074,55 @@ button.close {
   /* line 18, ../../stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-print {
     display: none !important; } }
-/* line 1, ../../stylesheets/stylesheet.scss */
-body {
-  background-color: #fff; }
+/* Screen Sizes */
+/* Variables */
+/* line 12, ../../stylesheets/stylesheet.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif !important; }
 
-/* line 5, ../../stylesheets/stylesheet.scss */
-section {
+/* line 19, ../../stylesheets/stylesheet.scss */
+body {
+  background-color: #fff !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 20px;
+  line-height: auto;
+  text-align: left; }
+
+/* line 27, ../../stylesheets/stylesheet.scss */
+.navbar {
   clear: both;
   float: left; }
+
+/* line 32, ../../stylesheets/stylesheet.scss */
+section {
+  clear: both;
+  float: left;
+  width: 100%; }
+  /* line 37, ../../stylesheets/stylesheet.scss */
+  section.humanization {
+    background: yellow;
+    min-height: 100vh; }
+  /* line 42, ../../stylesheets/stylesheet.scss */
+  section.history {
+    background: red;
+    min-height: 100vh; }
+  /* line 47, ../../stylesheets/stylesheet.scss */
+  section.psychology {
+    background: green;
+    min-height: 100vh; }
+  /* line 52, ../../stylesheets/stylesheet.scss */
+  section.addicting {
+    background: pink;
+    min-height: 100vh; }
+  /* line 58, ../../stylesheets/stylesheet.scss */
+  section .row {
+    padding: 8em 8em 0 8em;
+    vertical-align: middle; }
+    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+      /* line 58, ../../stylesheets/stylesheet.scss */
+      section .row {
+        font-size: 2.2em; } }
+    @media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+      /* line 58, ../../stylesheets/stylesheet.scss */
+      section .row {
+        font-size: 1em; } }
