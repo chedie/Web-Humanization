@@ -65,72 +65,65 @@
 
 
 <section>
-  <div class="container">
-    <h1>Hello, world!</h1>
-    <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-  </div>
-</section>
-
-
-<section>
 	<div class="container">
         <h1>History of Technology</h1>
-        
-        <p>Charles Babbage invented the first computer between 1833 and 1871. In 1984, the Apple Macintosh computer came to be. Apple invented the first mass-market PC with a graphical user interface and mouse. </p>
-        
-        <p>Then, computer screen began to shrink. What used to be large bulky sized monitors became thin, flat screens. Now, we can carry and use our technology anytime, anywhere.</p>
-        
+        <p>Charles Babbage invented the first computer between 1833 and 1871. In 1984, the Apple Macintosh computer came to be. Apple invented the first mass-market PC with a graphical user interface and mouse. </p>           
+        <p>Then, computer screen began to shrink. What used to be large bulky sized monitors became thin, flat screens. Now, we can carry and use our technology anytime, anywhere.</p>           
         <p>We're addicted to screens.</p>
 	</div>
 </section>
 
 
 
-<h1>Human Psychology</h1>
-
-<h3>Facts:</h3>
-<ol>
-	<li>We are all addicted to the net that we couldn't imagine living without it</li>
-    <li>Hard for us to picture the past when there was no internet</li>
-</ol>
-
-
-<h1>Why the net is addicting?</h1>
-<ol>
-<li>We serve ourselves (self-service). We search, find, use, choose, transact, filter, and, above all, we type.</li>
-<li>We want to be in control. Self-service has us tailor things exactly what we want to a very fine degree, and just the way we want them.</li><li>We value control and speed. There are services that require the human touch to lovingly craft an offline product. Then these products can be easily sold and managed online without the hassles of brick-and-mortar inventory. There is no need for a middleman to do the selling for you. Human interaction is unnecessary for some services, bypassing queues and tiring processes, maximizing efficiency and convenience.</li>
-<li>We like to feel like experts. The joint knowledge of many amateurs is now more powerful than the singular knowledge of one expert. This is the reason why review sites are successful as we have high expectations of digital things today, and those expectations are growing every day, as are the opportunities they offer.</li>
-<li>We love to feel important. Since the internet made content accessible for decision-making, quality has become more important than convenience. Just as many people has turned their backs from supermarkets to travel to farms for organic options, searching for the best has become the norm.</li>
-</ol>
-
-
-<h1>How the Internet is Changing the Way We Think</h1>
-<p><strong>The whole world is now interactive.</strong> It's big, colourful and dynamic. Information is accessed every millisecond. We are realizing that information within a range of systems, not just in one place. This information is communicated visually and is gradually improving in responding to human nature. </p>
-
-<p><strong>We expect information to be delivered in meaningful and intuitive ways.</strong> We crave for stimulation, continuity, consistency and ideally, improve our relationship with content in improving parts of our lives.</p>
-
-<p><strong>Wearable devices have bridged the gap of removing technological boundary to assist in allowing content to flow across systems.</strong> For example, <a href="http://fluid.media.mit.edu/projects/fingerreader" target="_blank">Fluid Interfaces</a> created FingerReader, a wearable device that could read printed text for the visually impaired. Wearers scan a text line with their finger and receive an audio feedback of the words and a haptic feedback of the layout. No need for braille anymore. </p>
-
-<p><strong>We're accepting connecting data with body language to make routine tasks easier.</strong> Gesture control is the reason behind this. With some wearable gadgets, we can detect how many calories we have shed from running a mile. Wearable armbands allow you to control Bluetooth enabled devices using your fingers or hands. Take it step higher and you have <a href="http://www.finrobotics.com/" target="_blank">Fin</a>, a trendy ring you can wear on your thumb that helps you control your entire digital world. </p>
-
-<p><strong>Audio expands our relationship with content because, unlike visual information, it doesn't take up space. </strong>There is a more emotional connection with an audio since it sounds human. Podcasts are growing steadily in numbers. Some podcast becomes so popular that the voices behind them become celebrities on the web. Apple's Siri became so successful because of its human-like audio interaction. You talk to Siri as you would talk to a friend. It can also act like your own personal assistant. </p>
-
-<p><strong>The world is becoming our interface.</strong> Technologies like voice recognition systems, eye-tracking technology, and touch interfaces, may have not fully matured yet to make all motion gestures feel smooth and seamless but it is on its way to building an intuitive environment, which works well with our own behaviour. Wearable devices are the perfect examples of these. There are already innovative proposals for the future, as can be seen in this video, <a href="https://www.youtube.com/watch?v=gplbpAIjMq8" target="_blank">The Future of Glass Technology</a>, and <a href="https://www.youtube.com/watch?v=jZkHpNnXLB0" target="_blank">A Day Made of Glass 2</a>, wherein our whole environment becomes an interface to access the digital world.</p>
-
-<p><strong>We want the information we prefer delivered to us.</strong> This is when contextual content reaches us depending on our location, mood, behaviour and intentions. Right now, most of us would set up different apps to deliver the news we want, the music we want played as our alarm, inform us about the weather, etc. But for <a href="http://early.capsule.fm/" target="_blank">Capsule.fm</a>, a smart artificial personality that can be downloaded in your mobile gadget, can mix your music, social media. news, local weather and more, then transform it into an intimate audio-stream that suits your needs.</p>
-
-<p><strong>Basically, our drive to invent technologies that help access information within our behavioural contexts will continue to grow with our continuous input.</strong> Content and information is a fluid, living system and it affects our everyday lives. Interfaces should not be seen only as a channel to access information. Rather, it is up to us to think of ways to deliver and access that content stream that is intelligent, relevant, and in tune with human behaviour. Remember that the internet does not reside only in the digital world. It can now be reached within our existing environment, to which we can maximize its potential for our personal growth and elevate living standards.</p>
+<section>
+	<div class="container">
+        <h1>Human Psychology</h1>
+        <h3>Facts:</h3>
+        <ol>
+            <li>We are all addicted to the net that we couldn't imagine living without it</li>
+            <li>Hard for us to picture the past when there was no internet</li>
+        </ol>
+	</div>
+</section>
 
 
 
+<section>
+    <div class="container">
+        <h1>Why the net is addicting?</h1>
+        <ol>
+            <li>We serve ourselves (self-service). We search, find, use, choose, transact, filter, and, above all, we type.</li>
+            <li>We want to be in control. Self-service has us tailor things exactly what we want to a very fine degree, and just the way we want them.</li><li>We value control and speed. There are services that require the human touch to lovingly craft an offline product. Then these products can be easily sold and managed online without the hassles of brick-and-mortar inventory. There is no need for a middleman to do the selling for you. Human interaction is unnecessary for some services, bypassing queues and tiring processes, maximizing efficiency and convenience.</li>
+            <li>We like to feel like experts. The joint knowledge of many amateurs is now more powerful than the singular knowledge of one expert. This is the reason why review sites are successful as we have high expectations of digital things today, and those expectations are growing every day, as are the opportunities they offer.</li>
+            <li>We love to feel important. Since the internet made content accessible for decision-making, quality has become more important than convenience. Just as many people has turned their backs from supermarkets to travel to farms for organic options, searching for the best has become the norm.</li>
+        </ol>
+    </div>
+</section>
+
+
+
+<section>
+    <div class="container">
+        <h1>How the Internet is Changing the Way We Think</h1>
+        <p><strong>The whole world is now interactive.</strong> It's big, colourful and dynamic. Information is accessed every millisecond. We are realizing that information within a range of systems, not just in one place. This information is communicated visually and is gradually improving in responding to human nature. </p>
+        <p><strong>We expect information to be delivered in meaningful and intuitive ways.</strong> We crave for stimulation, continuity, consistency and ideally, improve our relationship with content in improving parts of our lives.</p>
+        <p><strong>Wearable devices have bridged the gap of removing technological boundary to assist in allowing content to flow across systems.</strong> For example, <a href="http://fluid.media.mit.edu/projects/fingerreader" target="_blank">Fluid Interfaces</a> created FingerReader, a wearable device that could read printed text for the visually impaired. Wearers scan a text line with their finger and receive an audio feedback of the words and a haptic feedback of the layout. No need for braille anymore. </p>
+        <p><strong>We're accepting connecting data with body language to make routine tasks easier.</strong> Gesture control is the reason behind this. With some wearable gadgets, we can detect how many calories we have shed from running a mile. Wearable armbands allow you to control Bluetooth enabled devices using your fingers or hands. Take it step higher and you have <a href="http://www.finrobotics.com/" target="_blank">Fin</a>, a trendy ring you can wear on your thumb that helps you control your entire digital world. </p>
+        <p><strong>Audio expands our relationship with content because, unlike visual information, it doesn't take up space. </strong>There is a more emotional connection with an audio since it sounds human. Podcasts are growing steadily in numbers. Some podcast becomes so popular that the voices behind them become celebrities on the web. Apple's Siri became so successful because of its human-like audio interaction. You talk to Siri as you would talk to a friend. It can also act like your own personal assistant. </p>
+        <p><strong>The world is becoming our interface.</strong> Technologies like voice recognition systems, eye-tracking technology, and touch interfaces, may have not fully matured yet to make all motion gestures feel smooth and seamless but it is on its way to building an intuitive environment, which works well with our own behaviour. Wearable devices are the perfect examples of these. There are already innovative proposals for the future, as can be seen in this video, <a href="https://www.youtube.com/watch?v=gplbpAIjMq8" target="_blank">The Future of Glass Technology</a>, and <a href="https://www.youtube.com/watch?v=jZkHpNnXLB0" target="_blank">A Day Made of Glass 2</a>, wherein our whole environment becomes an interface to access the digital world.</p>
+        <p><strong>We want the information we prefer delivered to us.</strong> This is when contextual content reaches us depending on our location, mood, behaviour and intentions. Right now, most of us would set up different apps to deliver the news we want, the music we want played as our alarm, inform us about the weather, etc. But for <a href="http://early.capsule.fm/" target="_blank">Capsule.fm</a>, a smart artificial personality that can be downloaded in your mobile gadget, can mix your music, social media. news, local weather and more, then transform it into an intimate audio-stream that suits your needs.</p>
+        <p><strong>Basically, our drive to invent technologies that help access information within our behavioural contexts will continue to grow with our continuous input.</strong> Content and information is a fluid, living system and it affects our everyday lives. Interfaces should not be seen only as a channel to access information. Rather, it is up to us to think of ways to deliver and access that content stream that is intelligent, relevant, and in tune with human behaviour. Remember that the internet does not reside only in the digital world. It can now be reached within our existing environment, to which we can maximize its potential for our personal growth and elevate living standards.</p>
+    </div>
+</section>
+
+
+
+<section>
+    <div class="container">
 <h1>Ways to Make Your Digital Interface Human</h1>
 <p>Based on the previous chapter, we have seen how technology evolved to align its functionalities into human behaviour. Content is the key factor why the internet exists. Starting at the time when cuneiform was impressed on clay tablets by ancient civilizations, then smartphones are downloading information by the millisecond, content will not go away regardless of the tool used.</p>
-
 <p>Once upon a time, the internet was perceived as an information system that everyone must adhere to. Its structure, functions and algorithms were strict and precise. Creativity was the differentiating factor for a digital product's success. Usability wasn't given much attention to. Users will need to find the information through hundreds of similar web entries. There was hardly any way to go about it.</p>
-
 <p>Now, with Google's strict algorithms, search has become more concise, relevant and informative. Quality content has more authority over quantity. This change brought standards to offer user-friendly interfaces for easy access to information. Technology evolved to adhere to user behaviour. </p>
-
 <p>So regardless of whatever digital product (e.g. website, app, software) you are creating, your interface will need to be simple and user-friendly that the task feels humane rather than automated. While the internet gifted the world with easy automation of almost everything, the human brain is geared towards finding the place it feels more comfortable with. Thus, the importance of creating user-friendly digital products your user's will build affinity with.</p>
 
 <ol>
@@ -216,12 +209,18 @@ Based on your website's analytics, you already got amazing data. You think you'v
     </li>
 </ol>
 
+	</div>
+</section>
 
 
-<h1>It's All About Being Human</h1>
-<p>The value of service, digital or physical, manual or automated, is on the experience. A good digital product must incorporate the same values we take in the real world, user-friendly, accessible, supportive and flexible. Imagine dining in a classy restaurant with a waitress that fill your wine without you knowing they've been near your table.</p>
+<section>
+    <div class="container">
+        <h1>It's All About Being Human</h1>
+        <p>The value of service, digital or physical, manual or automated, is on the experience. A good digital product must incorporate the same values we take in the real world, user-friendly, accessible, supportive and flexible. Imagine dining in a classy restaurant with a waitress that fill your wine without you knowing they've been near your table.</p>        
+        <p>This is how technology works today. It's a friendly artificial entity that works like a ninja. It learns everything about you. It works according to your preferences. Combine automation with human elements, and we're in the path of fulfilling user needs that can benefit everyone's lives.</p>
+    </div>
+</section>
 
-<p>This is how technology works today. It's a friendly artificial entity that works like a ninja. It learns everything about you. It works according to your preferences. Combine automation with human elements, and we're in the path of fulfilling user needs that can benefit everyone's lives.</p>
 
 
 <script src="javascripts/bootstrap.min.js"></script>

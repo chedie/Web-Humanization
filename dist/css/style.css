@@ -7074,3 +7074,11 @@ button.close {
   /* line 18, ../../stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-print {
     display: none !important; } }
+/* line 1, ../../stylesheets/stylesheet.scss */
+body {
+  background-color: #fff; }
+
+/* line 5, ../../stylesheets/stylesheet.scss */
+section {
+  clear: both;
+  float: left; }
