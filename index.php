@@ -2,6 +2,7 @@
 <head>
 <title>Web Humanization &amp; Optimization</title>
 
+<!-- Meta details -->
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta name="title" content="Web Humanization & Optimization">
@@ -9,16 +10,15 @@
 <meta name="author" content="Viiworks Inc."/>
 
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-
-
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">-->
+<link href="dist/css/style.css" rel="stylesheet"/>
 
 <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
 <link href="dist/css/roboto.min.css" rel="stylesheet">
 <link href="dist/css/material.min.css" rel="stylesheet">
 <link href="dist/css/ripples.min.css" rel="stylesheet">
 
-
+<!-- Installing Favicons -->
 <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
@@ -37,15 +37,54 @@
 <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
 </head>
 
+
+
 <body>
 
-<h1>History of Technology</h1>
 
-<p>Charles Babbage invented the first computer between 1833 and 1871. In 1984, the Apple Macintosh computer came to be. Apple invented the first mass-market PC with a graphical user interface and mouse. </p>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+     <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="#">Project name</a> </div>
+     <div id="navbar" class="navbar-collapse collapse">
+      <form class="navbar-form navbar-right">
+         <div class="form-group">
+          <input type="text" placeholder="Email" class="form-control">
+        </div>
+         <div class="form-group">
+          <input type="password" placeholder="Password" class="form-control">
+        </div>
+         <button type="submit" class="btn btn-success">Sign in</button>
+       </form>
+    </div>
+     <!--/.navbar-collapse --> 
+   </div>
+</nav>
 
-<p>Then, computer screen began to shrink. What used to be large bulky sized monitors became thin, flat screens. Now, we can carry and use our technology anytime, anywhere.</p>
 
-<p>We're addicted to screens.</p>
+
+<section>
+  <div class="container">
+    <h1>Hello, world!</h1>
+    <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+  </div>
+</section>
+
+
+<section>
+	<div class="container">
+        <h1>History of Technology</h1>
+        
+        <p>Charles Babbage invented the first computer between 1833 and 1871. In 1984, the Apple Macintosh computer came to be. Apple invented the first mass-market PC with a graphical user interface and mouse. </p>
+        
+        <p>Then, computer screen began to shrink. What used to be large bulky sized monitors became thin, flat screens. Now, we can carry and use our technology anytime, anywhere.</p>
+        
+        <p>We're addicted to screens.</p>
+	</div>
+</section>
+
 
 
 <h1>Human Psychology</h1>
@@ -185,8 +224,7 @@ Based on your website's analytics, you already got amazing data. You think you'v
 <p>This is how technology works today. It's a friendly artificial entity that works like a ninja. It learns everything about you. It works according to your preferences. Combine automation with human elements, and we're in the path of fulfilling user needs that can benefit everyone's lives.</p>
 
 
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="javascripts/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="dist/js/ripples.min.js"></script>
 <script src="dist/js/material.min.js"></script>
