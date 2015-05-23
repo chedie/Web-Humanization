@@ -7,12 +7,10 @@
     
 <!-- Meta details -->
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-<meta name="title" content="Web Humanization & Optimization">
+<meta name="title" content="Web Humanization & Optimization">	
 <meta name="description" content=""/>
 <meta name="author" content="Viiworks Inc."/>
 
-<!-- Latest compiled and minified CSS -->
-<link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Customized CSS -->
 <link href="dist/css/stylesheet.css" rel="stylesheet">
