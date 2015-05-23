@@ -1,17 +1,21 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Web Humanization &amp; Optimization</title>
-
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    
 <!-- Meta details -->
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta name="title" content="Web Humanization & Optimization">
 <meta name="description" content=""/>
 <meta name="author" content="Viiworks Inc."/>
 
 <!-- Latest compiled and minified CSS -->
-<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">-->
-<link href="dist/css/style.css" rel="stylesheet"/>
+<link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Customized CSS -->
+<link href="dist/css/stylesheet.css" rel="stylesheet">
 
 <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
 <link href="dist/css/roboto.min.css" rel="stylesheet">
@@ -19,6 +23,13 @@
 <link href="dist/css/ripples.min.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700' rel='stylesheet' type='text/css'>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
 
 <!-- Installing Favicons -->
 <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
@@ -255,9 +266,12 @@
 
 
 
-<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="javascripts/eskju.jquery.scrollflow.js"></script>
-<script src="javascripts/bootstrap.min.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+ <!-- Include all compiled plugins (below), or include individual files as needed -->  
+<script src="dist/js/bootstrap.min.js"></script>
+<script src="dist/js/eskju.jquery.scrollflow.js"></script>
 <script src="dist/js/ripples.min.js"></script>
 <script src="dist/js/material.min.js"></script>
 <script>
