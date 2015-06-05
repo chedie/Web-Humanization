@@ -7104,25 +7104,44 @@ section {
     min-height: 100vh; }
   /* line 42, ../../stylesheets/stylesheet.scss */
   section.history {
-    background: red;
+    background-image: url(../../images/history-of-technology.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
     min-height: 100vh; }
-  /* line 47, ../../stylesheets/stylesheet.scss */
+  /* line 52, ../../stylesheets/stylesheet.scss */
   section.psychology {
     background: green;
     min-height: 100vh; }
-  /* line 52, ../../stylesheets/stylesheet.scss */
+  /* line 57, ../../stylesheets/stylesheet.scss */
+  section.humanization-ways {
+    background: purple;
+    min-height: 100vh; }
+  /* line 62, ../../stylesheets/stylesheet.scss */
   section.addicting {
     background: pink;
     min-height: 100vh; }
-  /* line 58, ../../stylesheets/stylesheet.scss */
+  /* line 67, ../../stylesheets/stylesheet.scss */
+  section.changing {
+    background: orange;
+    min-height: 100vh; }
+  /* line 73, ../../stylesheets/stylesheet.scss */
   section .row {
-    padding: 8em 8em 0 8em;
+    padding: 6em 0;
     vertical-align: middle; }
+    /* line 77, ../../stylesheets/stylesheet.scss */
+    section .row #dialog h2 {
+      font-size: 1em;
+      font-weight: 400;
+      margin: 0;
+      padding: 1em; }
     @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-      /* line 58, ../../stylesheets/stylesheet.scss */
+      /* line 73, ../../stylesheets/stylesheet.scss */
       section .row {
-        font-size: 2.2em; } }
+        font-size: 2.2em;
+        padding: 3em; } }
     @media screen and (min-device-width: 320px) and (max-device-width: 640px) {
-      /* line 58, ../../stylesheets/stylesheet.scss */
+      /* line 73, ../../stylesheets/stylesheet.scss */
       section .row {
-        font-size: 1em; } }
+        font-size: 1em;
+        padding: .5em; } }

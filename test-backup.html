@@ -18,8 +18,8 @@
     <link href="dist/css/bootstrap.min.css" rel="stylesheet"> -->
 
     <!-- Custom styles for this template -->
-    <link href="dist/css/card-animation.css" rel="stylesheet">
     <link href="dist/css/style.css" rel="stylesheet">
+	<link href="dist/css/card-animation.css" rel="stylesheet">
     
     <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
     <link href="dist/css/roboto.min.css" rel="stylesheet">
@@ -89,7 +89,7 @@
     
     <section class="history">
         <div class="container">
-            <div class="row">
+            <div class="row scrollflow -slide-top -opacity">
                 <div>
                 	<div class="col-xs-1"></div>
                     <div class="col-xs-10">
@@ -109,7 +109,7 @@
     
     <section class="psychology">
         <div class="container">
-            <div class="row">
+            <div class="row scrollflow -slide-top -opacity">
             	<div class="col-xs-1"></div>
                 <div class="col-xs-10">
                 	<h1>Human Psychology</h1>
@@ -128,7 +128,7 @@
     
     <section class="addicting">
         <div class="container">
-            <div class="row">
+            <div class="row scrollflow -slide-top -opacity">
             	<div class="col-xs-1"></div>
                 <div class="col-xs-10">
                 	<div><h1>Why the net is addicting?</h1></div>
@@ -148,80 +148,26 @@
     </section>
     
     
-    <section class="humanization">
+    
+    <section class="changing">
         <div class="container">
-            <div class="row">
-
-                <div class="col-xs-1"></div>
+            <div class="row scrollflow -slide-top -opacity">
+            	<div class="col-xs-1"></div>
                 <div class="col-xs-10">
-                    <div><h1>How the Internet is Changing the Way We Think</h1></div>
-                    <!-- Cards -->
+                	<div><h1>How the Internet is Changing the Way We Think</h1></div>
                     
- 					<div class="col-sm-4">
+                    <div class="col-sm-4">
                     	<div class="card">
                           <div class="content"><h2>The whole world is now interactive.</h2></div>
                           <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog1"><i class="mdi-navigation-arrow-forward"></i></button></div>
                         </div>
                     </div>
-
-					<div class="col-sm-4">
-                    	<div class="card">
-                          <div class="content"><h2>We expect information to be intuitive.</h2></div>
-                          <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog2"><i class="mdi-navigation-arrow-forward"></i></button></div>
-                        </div>
-                    </div>
-
-					<div class="col-sm-4">
-                    	<div class="card">
-                          <div class="content"><h2>Wearable devices improve our daily lives.</h2></div>
-                          <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog3"><i class="mdi-navigation-arrow-forward"></i></button></div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-4">
-                    	<div class="card">
-                          <div class="content"><h2>We accept connecting data to body language.</h2></div>
-                          <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog4"><i class="mdi-navigation-arrow-forward"></i></button></div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-4">
-                    	<div class="card">
-                          <div class="content"><h2>Audio expands our relationship with content.</h2></div>
-                          <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog5"><i class="mdi-navigation-arrow-forward"></i></button></div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-4">
-                    	<div class="card">
-                          <div class="content"><h2>The world is becoming our interface.</h2></div>
-                          <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog6"><i class="mdi-navigation-arrow-forward"></i></button></div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-4">
-                    	<div class="card">
-                          <div class="content"><h2>We want content we prefer delivered to us.</h2></div>
-                          <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog7"><i class="mdi-navigation-arrow-forward"></i></button></div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-4">
-                    	<div class="card">
-                          <div class="content"><h2>We invent for more access to content.</h2></div>
-                          <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog8"><i class="mdi-navigation-arrow-forward"></i></button></div>
-                        </div>
-                    </div>
-                    
-                    
-                    
-                    <!-- Card Description -->
-                    
                     <div id="complete-dialog1" class="modal fade" tabindex="-1">
                       <div class="modal-dialog">
                         <div class="modal-content">
                           <div class="modal-header">
-                          	<h2 class="modal-title">The whole world is now interactive.</h2>
+                          	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h2 class="modal-title">The whole world is now interactive.</h2>
                           </div>
                           <div class="modal-body">
                             <p>It's big, colourful and dynamic. Information is accessed every millisecond. We are realizing that information within a range of systems, not just in one place. This information is communicated visually and is gradually improving in responding to human nature.</p>
@@ -233,11 +179,19 @@
                       </div>
                     </div>
                     
+                    
+                    <div class="col-sm-4">
+                    	<div class="card">
+                          <div class="content"><h2>We expect information to be intuitive.</h2></div>
+                          <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog2"><i class="mdi-navigation-arrow-forward"></i></button></div>
+                        </div>
+                    </div>
                     <div id="complete-dialog2" class="modal fade" tabindex="-1">
                       <div class="modal-dialog">
                         <div class="modal-content">
                           <div class="modal-header">
-                          	<h2 class="modal-title">We expect information to be intuitive.</h2>
+                          	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h2 class="modal-title">We expect information to be intuitive.</h2>
                           </div>
                           <div class="modal-body">
                             <p>We expect information to be delivered in meaningful and intuitive ways. We crave for stimulation, continuity, consistency and ideally, improve our relationship with content in improving parts of our lives.</p>
@@ -248,11 +202,19 @@
                         </div>
                       </div>
                     </div>
-                    
+                                                     
+
+                    <div class="col-sm-4">
+                    	<div class="card">
+                          <div class="content"><h2>Wearable devices improve our daily lives.</h2></div>
+                          <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog3"><i class="mdi-navigation-arrow-forward"></i></button></div>
+                        </div>
+                    </div>
                     <div id="complete-dialog3" class="modal fade" tabindex="-1">
                       <div class="modal-dialog">
                         <div class="modal-content">
                           <div class="modal-header">
+                          	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                             <h2 class="modal-title">Wearable devices improve our daily lives.</h2>
                           </div>
                           <div class="modal-body">
@@ -265,10 +227,18 @@
                       </div>
                     </div>
                     
+	        
+                    <div class="col-sm-4">
+                    	<div class="card">
+                          <div class="content"><h2>We accept connecting data to body language.</h2></div>
+                          <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog4"><i class="mdi-navigation-arrow-forward"></i></button></div>
+                        </div>
+                    </div>
                     <div id="complete-dialog4" class="modal fade" tabindex="-1">
                       <div class="modal-dialog">
                         <div class="modal-content">
                           <div class="modal-header">
+                          	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                             <h2 class="modal-title">We accept connecting data to body language.</h2>
                           </div>
                           <div class="modal-body">
@@ -279,12 +249,20 @@
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div>                    
+    	            
                     
+                    <div class="col-sm-4">
+                    	<div class="card">
+                          <div class="content"><h2>Audio expands our relationship with content.</h2></div>
+                          <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog5"><i class="mdi-navigation-arrow-forward"></i></button></div>
+                        </div>
+                    </div>
                     <div id="complete-dialog5" class="modal fade" tabindex="-1">
                       <div class="modal-dialog">
                         <div class="modal-content">
                           <div class="modal-header">
+                          	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                             <h2 class="modal-title">Audio expands our relationship with content.</h2>
                           </div>
                           <div class="modal-body">
@@ -295,12 +273,20 @@
                           </div>
                         </div>
                       </div>
+                    </div>                       
+
+
+                   <div class="col-sm-4">
+                    	<div class="card">
+                          <div class="content"><h2>The world is becoming our interface.</h2></div>
+                          <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog6"><i class="mdi-navigation-arrow-forward"></i></button></div>
+                        </div>
                     </div>
-  
-  					<div id="complete-dialog6" class="modal fade" tabindex="-1">
+                    <div id="complete-dialog6" class="modal fade" tabindex="-1">
                       <div class="modal-dialog">
                         <div class="modal-content">
                           <div class="modal-header">
+                          	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                             <h2 class="modal-title">The world is becoming our interface.</h2>
                           </div>
                           <div class="modal-body">
@@ -311,12 +297,20 @@
                           </div>
                         </div>
                       </div>
+                    </div>                 	
+					
+
+                   <div class="col-sm-4">
+                    	<div class="card">
+                          <div class="content"><h2>We want content we prefer delivered to us.</h2></div>
+                          <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog7"><i class="mdi-navigation-arrow-forward"></i></button></div>
+                        </div>
                     </div>
-  
-  					<div id="complete-dialog7" class="modal fade" tabindex="-1">
+                    <div id="complete-dialog7" class="modal fade" tabindex="-1">
                       <div class="modal-dialog">
                         <div class="modal-content">
                           <div class="modal-header">
+                          	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                             <h2 class="modal-title">We want content we prefer delivered to us.</h2>
                           </div>
                           <div class="modal-body">
@@ -327,12 +321,20 @@
                           </div>
                         </div>
                       </div>
+                    </div> 
+
+			
+                   <div class="col-sm-4">
+                    	<div class="card">
+                          <div class="content"><h2>We invent for more access to content.</h2></div>
+                          <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog8"><i class="mdi-navigation-arrow-forward"></i></button></div>
+                        </div>
                     </div>
-  		
-        			<div id="complete-dialog8" class="modal fade" tabindex="-1">
+                    <div id="complete-dialog8" class="modal fade" tabindex="-1">
                       <div class="modal-dialog">
                         <div class="modal-content">
                           <div class="modal-header">
+                          	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                             <h2 class="modal-title">We invent for more access to content.</h2>
                           </div>
                           <div class="modal-body">
@@ -343,21 +345,19 @@
                           </div>
                         </div>
                       </div>
-                    </div>
-  
-                </div> <!-- end.col-xs-10 -->            
+                    </div>             
+
+                </div>
                 <div class="col-xs-1"></div>
-
-			</div> <!-- end.row -->
-        </div> <!-- end.container -->
-	</section>
-
-
-
-
-   <section class="humanization-ways">
+            </div> <!-- end.row -->       
+         </div>
+    </section>
+    
+    
+    
+    <section class="humanization-ways">
             <div class="container">
-                <div class="row">
+                <div class="row scrollflow -slide-top -opacity">
                 
                 
                 <div class="col-xs-1"></div>
@@ -380,6 +380,7 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                               <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                 <h2 class="modal-title">Invest in research for your user's culture.</h2>
                               </div>
                               <div class="modal-body">
@@ -403,6 +404,7 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                               <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                 <h2 class="modal-title">Transmit your message to your market.</h2>
                               </div>
                               <div class="modal-body">
@@ -426,6 +428,7 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                               <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                 <h2 class="modal-title">Use human images for impact.</h2>
                               </div>
                               <div class="modal-body">
@@ -449,6 +452,7 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                               <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                 <h2 class="modal-title">Aim for consistency to build experience.</h2>
                               </div>
                               <div class="modal-body">
@@ -481,6 +485,7 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                               <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                 <h2 class="modal-title">Offer informative and interactive reaction.</h2>
                               </div>
                               <div class="modal-body">
@@ -504,6 +509,7 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                               <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                 <h2 class="modal-title">Give your interface a human voice.</h2>
                               </div>
                               <div class="modal-body">
@@ -528,6 +534,7 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                               <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                 <h2 class="modal-title">Design dialogs to yield closure.</h2>
                               </div>
                               <div class="modal-body">
@@ -558,6 +565,7 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                               <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                 <h2 class="modal-title">Assign effective customer service.</h2>
                               </div>
                               <div class="modal-body">
@@ -586,6 +594,7 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                               <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                 <h2 class="modal-title">Permit easy reversal of actions.</h2>
                               </div>
                               <div class="modal-body">
@@ -609,6 +618,7 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                               <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                 <h2 class="modal-title">Apply the K.I.S.S. Principle.</h2>
                               </div>
                               <div class="modal-body">
@@ -633,6 +643,7 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                               <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                 <h2 class="modal-title">Customization works. Give users control.</h2>
                               </div>
                               <div class="modal-body">
@@ -656,6 +667,7 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                               <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                 <h2 class="modal-title">Make non-audio elements readable.</h2>
                               </div>
                               <div class="modal-body">
@@ -686,6 +698,7 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                               <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                 <h2 class="modal-title">Never stop improving.</h2>
                               </div>
                               <div class="modal-body">
@@ -717,56 +730,44 @@
     
     <section class="conclusion">
         <div class="container">
-        	<div class="row">      
-            	<div class="col-xs-1"></div>
-                <div class="col-xs-10"> 	    
-            	    <h1>It's All About Being Human</h1>
-                    <div class="col-sm-6">
-	                	<p>The value of service, digital or physical, manual or automated, is on the experience. A good digital product must incorporate the same values we take in the real world, user-friendly, accessible, supportive and flexible. Imagine dining in a classy restaurant with a waitress that fill your wine without you knowing they've been near your table.</p>        
-    				</div>
-                    <div class="col-sm-6">
-	                	<p>This is how technology works today. It's a friendly artificial entity that works like a ninja. It learns everything about you. It works according to your preferences. Combine automation with human elements, and we're in the path of fulfilling user needs that can benefit everyone's lives.</p>
-					</div>
-    			</div>
-                <div class="col-xs-1"></div>
-            </div>
+        	<div class="row scrollflow -slide-top -opacity">
+                <h1>It's All About Being Human</h1>
+                <p>The value of service, digital or physical, manual or automated, is on the experience. A good digital product must incorporate the same values we take in the real world, user-friendly, accessible, supportive and flexible. Imagine dining in a classy restaurant with a waitress that fill your wine without you knowing they've been near your table.</p>        
+                <p>This is how technology works today. It's a friendly artificial entity that works like a ninja. It learns everything about you. It works according to your preferences. Combine automation with human elements, and we're in the path of fulfilling user needs that can benefit everyone's lives.</p>
+			</div>
         </div>
     </section>
 
 
 
-	<section class="visit">
+	<section>
         <div class="container">
-        	<!-- Example row of columns -->
-            <div class="row">
-            	<div class="col-xs-1"></div>
-                <div class="col-xs-10">
-                	<div class="col-sm-6">
-                    	<h2>Heading</h2>
-                 		<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                  		<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-                    </div>
-                	<div class="col-sm-6">
-                    	<h2>Heading</h2>
-                 		<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                  		<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-                    </div>
+              <!-- Example row of columns -->
+              <div class="row">
+                <div class="col-md-4">
+                  <h2>Heading</h2>
+                  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                 </div>
-                <div class="col-xs-1"></div>
-            </div> <!-- end.row -->
-    	</div> <!-- end.container -->
+                <div class="col-md-4">
+                  <h2>Heading</h2>
+                  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+               </div>
+                <div class="col-md-4">
+                  <h2>Heading</h2>
+                  <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                </div>
+              </div>
+        
+              <hr>
+        
+              <footer>
+                <p>&copy; Company 2014</p>
+              </footer>
+            </div>    
     </section>
-
-
-	<footer>
-    	<div class="container">
-        	<div class="row">
-        		<hr>
-        		<p>&copy; Company 2014</p>   
-        	</div> <!-- end.row --> 
-        </div> <!-- end.container -->
-    </footer>
-	
 
 
 
