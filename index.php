@@ -12,7 +12,31 @@
     <meta name="description" content=""/>
     <meta name="author" content="Viiworks Inc."/>
 
+    <!-- Place this data between the <head> tags of your website -->
     <title>Web Humanization &amp; Automation</title>
+    <meta name="description" content="How Web Humanization is the Secret Ingredient to Your Business Success" />
+    
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Web Humanization & Optimization">
+    <meta itemprop="description" content="How Web Humanization is the Secret Ingredient to Your Business Success">
+    <meta itemprop="image" content="http://www.example.com/image.jpg">
+    
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@viiworks">
+    <meta name="twitter:title" content="Web Humanization & Optimization">
+    <meta name="twitter:description" content="How Web Humanization is the Secret Ingredient to Your Business Success">
+    <meta name="twitter:creator" content="@viiworks">
+    <meta name="twitter:image" content="http://www.example.com/image.html">
+    
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Web Humanization & Optimization" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://www.example.com/" />
+    <meta property="og:image" content="http://example.com/image.jpg" />
+    <meta property="og:description" content="How Web Humanization is the Secret Ingredient to Your Business Success" />
+    <meta property="og:site_name" content="Viiworks" />
+
 
     <!-- Bootstrap core CSS
     <link href="dist/css/bootstrap.min.css" rel="stylesheet"> -->
@@ -21,10 +45,11 @@
     <link href="dist/css/card-animation.css" rel="stylesheet">
     <link href="dist/css/style.css" rel="stylesheet">
     
-    <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
+    <!-- Include other css stylesheets -->
     <link href="dist/css/roboto.min.css" rel="stylesheet">
     <link href="dist/css/material.min.css" rel="stylesheet">
     <link href="dist/css/ripples.min.css" rel="stylesheet">
+    <link href="dist/css/scrolling-nav.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700' rel='stylesheet' type='text/css'>
 
@@ -39,41 +64,40 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-    <!-- Installing Favicons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">    
   </head>
 
  
-  <body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
   
- 
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-          <a class="navbar-brand" href="#">Project name</a> </div>
-         <div id="navbar" class="navbar-collapse collapse"></div>
-         <!--/.navbar-collapse --> 
-       </div>
-    </nav>
+  <div class="navbar navbar-default navbar-fixed-top">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <!--<a class="navbar-brand" href="javascript:void(0)">Web Humanization &amp; Automation</a>-->
+  </div>
+  <div class="navbar-collapse collapse navbar-responsive-collapse">
+    <ul class="nav navbar-nav">	
+      <li class="dropdown">
+        <a href="http://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Chapters <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+           <li><a class="page-scroll" href="#history-of-technology">History of Technology</a></li>
+           <li><a class="page-scroll" href="#psychology">Human Psychology</a></li>
+           <li><a class="page-scroll" href="#addicting">Why the Net is Addicting</a></li>
+           <li><a class="page-scroll" href="#way-we-think">How the Internet is Changing the Way We Think</a></li>
+           <li><a class="page-scroll" href="#humanization-ways">Ways to Make Your Digital Interface Human</a></li>
+           <li><a class="page-scroll" href="#conclusion">It's All About Being Human</a></li>
+        </ul>
+      </li>
+      <li><a href="#visit" class="page-scroll">Contact</a></li>
+    </ul>
+    </div>
+    </div>
+  
     
-    
-    
+       
     
     <section class="humanization">
         <div class="container">
@@ -87,7 +111,8 @@
     
     
     
-    <section class="history">
+    <section id="history">
+    	<a name="history-of-technology"></a>
         <div class="container">
             <div class="row">
                 <div>
@@ -107,7 +132,8 @@
     
     
     
-    <section class="psychology">
+    <section id="psychology">
+    	<a name="psychology"></a>
         <div class="container">
             <div class="row">
             	<div class="col-xs-1"></div>
@@ -126,20 +152,22 @@
     
     
     
-    <section class="addicting">
+    <section id="addicting">
+    	<a name="addicting"></a>
         <div class="container">
             <div class="row">
             	<div class="col-xs-1"></div>
                 <div class="col-xs-10">
                 	<div><h1>Why the net is addicting?</h1></div>
                     <div class="col-sm-6">
-                        <p>We serve ourselves (self-service). We search, find, use, choose, transact, filter, and, above all, we type.</p>
+                    
+                        <p><strong>We serve ourselves (self-service).</strong> We search, find, use, choose, transact, filter, and, above all, we type.</p>
                         <p>We want to be in control. Self-service has us tailor things exactly what we want to a very fine degree, and just the way we want them.</p>
-                        <p>We value control and speed. There are services that require the human touch to lovingly craft an offline product. Then these products can be easily sold and managed online without the hassles of brick-and-mortar inventory. There is no need for a middleman to do the selling for you. Human interaction is unnecessary for some services, bypassing queues and tiring processes, maximizing efficiency and convenience.</p>                    
+                        <p><strong>We value control and speed.</strong> There are services that require the human touch to lovingly craft an offline product. Then these products can be easily sold and managed online without the hassles of brick-and-mortar inventory. There is no need for a middleman to do the selling for you. Human interaction is unnecessary for some services, bypassing queues and tiring processes, maximizing efficiency and convenience.</p>                    
                     </div>
                     <div class="col-sm-6">
-                        <p>We like to feel like experts. The joint knowledge of many amateurs is now more powerful than the singular knowledge of one expert. This is the reason why review sites are successful as we have high expectations of digital things today, and those expectations are growing every day, as are the opportunities they offer.</p>
-                        <p>We love to feel important. Since the internet made content accessible for decision-making, quality has become more important than convenience. Just as many people has turned their backs from supermarkets to travel to farms for organic options, searching for the best has become the norm.</p>
+                        <p><strong>We like to feel like experts.</strong> The joint knowledge of many amateurs is now more powerful than the singular knowledge of one expert. This is the reason why review sites are successful as we have high expectations of digital things today, and those expectations are growing every day, as are the opportunities they offer.</p>
+                        <p><strong>We love to feel important.</strong> Since the internet made content accessible for decision-making, quality has become more important than convenience. Just as many people has turned their backs from supermarkets to travel to farms for organic options, searching for the best has become the norm.</p>
                     </div>
                 </div>
                 <div class="col-xs-1"></div>
@@ -148,7 +176,9 @@
     </section>
     
     
-    <section class="humanization">
+    
+    <section id="way-we-think">
+    	<a name="way-we-think"></a>
         <div class="container">
             <div class="row">
 
@@ -157,56 +187,56 @@
                     <div><h1>How the Internet is Changing the Way We Think</h1></div>
                     <!-- Cards -->
                     
- 					<div class="col-sm-4">
+ 					<div class="col-sm-6">
                     	<div class="card">
                           <div class="content"><h2>The whole world is now interactive.</h2></div>
                           <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog1"><i class="mdi-navigation-arrow-forward"></i></button></div>
                         </div>
                     </div>
 
-					<div class="col-sm-4">
+					<div class="col-sm-6">
                     	<div class="card">
                           <div class="content"><h2>We expect information to be intuitive.</h2></div>
                           <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog2"><i class="mdi-navigation-arrow-forward"></i></button></div>
                         </div>
                     </div>
 
-					<div class="col-sm-4">
+					<div class="col-sm-6">
                     	<div class="card">
                           <div class="content"><h2>Wearable devices improve our daily lives.</h2></div>
                           <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog3"><i class="mdi-navigation-arrow-forward"></i></button></div>
                         </div>
                     </div>
                     
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
                     	<div class="card">
                           <div class="content"><h2>We accept connecting data to body language.</h2></div>
                           <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog4"><i class="mdi-navigation-arrow-forward"></i></button></div>
                         </div>
                     </div>
                     
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
                     	<div class="card">
-                          <div class="content"><h2>Audio expands our relationship with content.</h2></div>
+                          <div class="content"><h2>Audio expands relationship with content.</h2></div>
                           <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog5"><i class="mdi-navigation-arrow-forward"></i></button></div>
                         </div>
                     </div>
                     
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
                     	<div class="card">
                           <div class="content"><h2>The world is becoming our interface.</h2></div>
                           <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog6"><i class="mdi-navigation-arrow-forward"></i></button></div>
                         </div>
                     </div>
                     
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
                     	<div class="card">
                           <div class="content"><h2>We want content we prefer delivered to us.</h2></div>
                           <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog7"><i class="mdi-navigation-arrow-forward"></i></button></div>
                         </div>
                     </div>
                     
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
                     	<div class="card">
                           <div class="content"><h2>We invent for more access to content.</h2></div>
                           <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog8"><i class="mdi-navigation-arrow-forward"></i></button></div>
@@ -336,7 +366,8 @@
                             <h2 class="modal-title">We invent for more access to content.</h2>
                           </div>
                           <div class="modal-body">
-                            <p>Basically, our drive to invent technologies that help access information within our behavioural contexts will continue to grow with our continuous input. Content and information is a fluid, living system and it affects our everyday lives. Interfaces should not be seen only as a channel to access information. Rather, it is up to us to think of ways to deliver and access that content stream that is intelligent, relevant, and in tune with human behaviour. Remember that the internet does not reside only in the digital world. It can now be reached within our existing environment, to which we can maximize its potential for our personal growth and elevate living standards.</p>
+                            <p>Basically, our drive to invent technologies that help access information within our behavioural contexts will continue to grow with our continuous input. Content and information is a fluid, living system and it affects our everyday lives. Interfaces should not be seen only as a channel to access information.</p> 
+                            <p>Rather, it is up to us to think of ways to deliver and access that content stream that is intelligent, relevant, and in tune with human behaviour. Remember that the internet does not reside only in the digital world. It can now be reached within our existing environment, to which we can maximize its potential for our personal growth and elevate living standards.</p>
                           </div>
                           <div class="modal-footer">
                             <button class="btn btn-fab btn-raised btn-material-red" data-dismiss="modal"><i class="mdi-content-clear"></i></button>
@@ -355,7 +386,8 @@
 
 
 
-   <section class="humanization-ways">
+   <section id="humanization-ways">
+   		<a name="humanization-ways"></a>
             <div class="container">
                 <div class="row">
                 
@@ -364,14 +396,27 @@
                 <div class="col-xs-10">
                     <h1>Ways to Make Your Digital Interface Human </h1>
                     
-                    <div class="col-sm-6"><p>Based on the previous chapter, we have seen how technology evolved to align its functionalities into human behaviour. Content is the key factor why the internet exists. Starting at the time when cuneiform was impressed on clay tablets by ancient civilizations, then smartphones are downloading information by the millisecond, content will not go away regardless of the tool used.</p></div>
-    	            <div class="col-sm-6"><p>Once upon a time, the internet was perceived as an information system that everyone must adhere to. Its structure, functions and algorithms were strict and precise. Creativity was the differentiating factor for a digital product's success. Usability wasn't given much attention to. Users will need to find the information through hundreds of similar web entries. There was hardly any way to go about it.</p></div>
+                    <div class="col-sm-6">
+                    	<p>We have seen how technology evolved to align its functionalities into human behaviour. Content is the key factor why the internet exists. Starting at the time when cuneiform was impressed on clay tablets by ancient civilizations, then smartphones are downloading information by the millisecond, content will not go away regardless of the tool used.</p>
+                    	<p>Once upon a time, the internet was perceived as an information system that everyone must adhere to. Its structure, functions and algorithms were strict and precise. Creativity was the differentiating factor for a digital product's success. Usability wasn't given much attention to. Users will need to find the information through hundreds of similar web entries. There was hardly any way to go about it.</p>
+                    </div>
+    	            <div class="col-sm-6">
+                    	<p>Now, with Google's strict algorithms, search has become more concise, relevant and informative. Quality content has more authority over quantity. This change brought standards to offer user-friendly interfaces for easy access to information. Technology evolved to adhere to user behaviour. </p>
+                  		<p>So regardless of whatever digital product (e.g. website, app, software) you are creating, your interface will need to be simple and user-friendly that the task feels humane rather than automated. While the internet gifted the world with easy automation of almost everything, the human brain is geared towards finding the place it feels more comfortable with. Thus, the importance of creating user-friendly digital products your user's will build affinity with.</p>
+                    </div>
+                    
+
+                    
                     
                     <br clear="all" />
                     <br clear="all" />
                     
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
                         <div class="card">
+                        	<div class="image">
+                                <img src="dist/images/invest-in-user-culture.jpg">
+                                <span class="title"></span>
+                            </div>
                             <div class="content"><h2>Invest in research for your user's culture.</h2></div>
                             <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog9"><i class="mdi-navigation-arrow-forward"></i></button></div>
                         </div>
@@ -383,7 +428,12 @@
                                 <h2 class="modal-title">Invest in research for your user's culture.</h2>
                               </div>
                               <div class="modal-body">
-                                <p>Even if your digital product is well designed, it will fail to accomplish its goals in the absence of directing the user to actionable goals. Facebook and LinkedIn are good examples of digital output due to enhanced user experience. With easy to understand flow of elements in their interfaces, users feel comfortable navigating to all its available apps and pages. Thus, the importance of knowing what is important for your user. Do they prefer larger texts? Larger buttons? Fewer graphics? Fewer pages? Do they click fast on buttons coloured red? etc.</p>
+                              	<div class="image">
+                                <img src="dist/images/invest-in-user-culture.jpg">
+                                <span class="title"></span>
+                            </div>
+                                <p>Even if your digital product is well designed, it will fail to accomplish its goals in the absence of directing the user to actionable goals. Facebook and LinkedIn are good examples of digital output due to enhanced user experience. With easy to understand flow of elements in their interfaces, users feel comfortable navigating to all its available apps and pages.</p> 
+                                <p>Thus, the importance of knowing what is important for your user. Do they prefer larger texts? Larger buttons? Fewer graphics? Fewer pages? Do they click fast on buttons coloured red? etc.</p>
                               </div>
                               <div class="modal-footer">
                                 <button class="btn btn-fab btn-raised btn-material-red" data-dismiss="modal"><i class="mdi-content-clear"></i></button>
@@ -393,8 +443,12 @@
                     </div>
                     
                     
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
                         <div class="card">
+                            <div class="image">
+                            	<img src="dist/images/transmit-your-message.jpg">
+                                <span class="title"></span>
+                            </div>
                             <div class="content"><h2>Transmit your message to your market.</h2></div>
                             <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog10"><i class="mdi-navigation-arrow-forward"></i></button></div>
                         </div>
@@ -406,7 +460,13 @@
                                 <h2 class="modal-title">Transmit your message to your market.</h2>
                               </div>
                               <div class="modal-body">
-                                <p>Go back to the idea that made you start your business in the first place. Answer that question again. Zycure was created to assist pawnshop owners in managing, monitoring, controlling and securing transactions on a real-time basis using the internet. Zycure's aim was to make the lives of pawnshop owners easier and more secure compared to administering paper transactions. This service was made clear for Zycure's niche industry. And that is what landing pages should do. Landing pages are for transparency. No misleading information. No time wasted. No wondering or guessing. Further details should be placed on other pages of the site. But the homepage sould be simple and concise.</p>
+                              	<div class="image">
+                            		<img src="dist/images/transmit-your-message.jpg">
+                                	<span class="title"></span>
+                            	</div>
+                                <p>Go back to the idea that made you start your business in the first place. Answer that question again.</p> 
+                                <p><a href="http://www.zycure.com/" target="_blank">Zycure</a> was created to assist pawnshop owners in managing, monitoring, controlling and securing transactions on a real-time basis using the internet. Zycure's aim was to make the lives of pawnshop owners easier and more secure compared to administering paper transactions. This service was made clear for Zycure's niche industry. And that is what landing pages should do.</p>
+                                <p>Landing pages are for transparency. No misleading information. No time wasted. No wondering or guessing. Further details should be placed on other pages of the site. But the homepage sould be simple and concise.</p>
                               </div>
                               <div class="modal-footer">
                                 <button class="btn btn-fab btn-raised btn-material-red" data-dismiss="modal"><i class="mdi-content-clear"></i></button>
@@ -416,8 +476,12 @@
                     </div>
                     
                     
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
                         <div class="card">
+                            <div class="image">
+                            	<img src="dist/images/use-human-images.jpg">
+                                <span class="title"></span>
+                            </div>
                             <div class="content"><h2>Use human images for impact.</h2></div>
                             <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog11"><i class="mdi-navigation-arrow-forward"></i></button></div>
                         </div>
@@ -429,7 +493,12 @@
                                 <h2 class="modal-title">Use human images for impact.</h2>
                               </div>
                               <div class="modal-body">
-                                <p>Based on studies, human photos on a website can have a positive impact on a visitor's first impression of trustworthiness. You can also place human photos beside testimonials for additional review authenticity. This is because human photos gear towards establishing an emotional connection with the visitor. This is not to say all that placing human photos will work on all websites. That will still depend on the industry the website is associated to. To ensure if a human photo will work for a website, it is recommended to do a A/B testing. Trust the statistics to help you decide if you are to use human photos on or website or otherwise.</p>
+                              	<div class="image">
+                            		<img src="dist/images/use-human-images.jpg">
+                                	<span class="title"></span>
+                            	</div>
+                                <p>Based on studies, human photos on a website can have a positive impact on a visitor's first impression of trustworthiness. You can also place human photos beside testimonials for additional review authenticity. This is because human photos gear towards establishing an emotional connection with the visitor.</p> 
+                                <p>This is not to say all that placing human photos will work on all websites. That will still depend on the industry the website is associated to. To ensure if a human photo will work for a website, it is recommended to do a A/B testing. Trust the statistics to help you decide if you are to use human photos on or website or otherwise.</p>
                               </div>
                               <div class="modal-footer">
                                 <button class="btn btn-fab btn-raised btn-material-red" data-dismiss="modal"><i class="mdi-content-clear"></i></button>
@@ -439,8 +508,12 @@
                     </div>                
                     
     
-                   <div class="col-sm-4">
+                   <div class="col-sm-6">
                         <div class="card">
+                            <div class="image">
+                            	<img src="dist/images/aim-for-consistency.jpg">
+                                <span class="title"></span>
+                            </div>
                             <div class="content"><h2>Aim for consistency to build experience.</h2></div>
                             <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog12"><i class="mdi-navigation-arrow-forward"></i></button></div>
                         </div>
@@ -452,8 +525,12 @@
                                 <h2 class="modal-title">Aim for consistency to build experience.</h2>
                               </div>
                               <div class="modal-body">
-                                <p>   When humans are used to a routine, it is hard to change their ways. The same thing applies on the web. Consistent sequences of actions are required in similar situations. Identical terminologies should be used all throughout the product. Branding elements such as colour, layout, fonts etc. must be seen everywhere. Do not disrupt an experience.</p>
-                                <p> When designing for interfaces, strive for consistency in the following:</p>
+                              	<div class="image">
+                            		<img src="dist/images/aim-for-consistency.jpg">
+                                	<span class="title"></span>
+                            	</div>
+                                <p>When humans are used to a routine, it is hard to change their ways. The same thing applies on the web. Consistent sequences of actions are required in similar situations. Identical terminologies should be used all throughout the product. Branding elements such as colour, layout, fonts etc. must be seen everywhere. Do not disrupt an experience.</p>
+                                <p>When designing for interfaces, strive for consistency in the following:</p>
                                 <ul>
                                     <li>Menus</li>
                                     <li>Help Screens</li>
@@ -471,8 +548,12 @@
                     </div>  
     
     
-                   <div class="col-sm-4">
+                   <div class="col-sm-6">
                         <div class="card">
+                        	<div class="image">
+                            	<img src="dist/images/interactive-reaction.jpg">
+                                <span class="title"></span>
+                            </div>
                             <div class="content"><h2>Offer informative and interactive reaction.</h2></div>
                             <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog13"><i class="mdi-navigation-arrow-forward"></i></button></div>
                         </div>
@@ -484,7 +565,11 @@
                                 <h2 class="modal-title">Offer informative and interactive reaction.</h2>
                               </div>
                               <div class="modal-body">
-                                <p>Or or <strong>Make it Feel Physical</strong>. Human hands are made to feel and manipulate things in the offline world. Little touches like a click, a twiddle or heavy vibration makes interfaces come to life. Small touches on a screen to manipulate digital versions of real-world items, such as flipping over a digital book, rotating a knob in a game, rotating a 3D item to view all angles, a click sound when a button is touched, etc. exemplify a digital object's weight and gravity, which makes a lot of difference.</p>
+                              	<div class="image">
+                                    <img src="dist/images/interactive-reaction.jpg">
+                                    <span class="title"></span>
+                                </div>
+                                <p>Or <strong>Make it Feel Physical</strong>. Human hands are made to feel and manipulate things in the offline world. Little touches like a click, a twiddle or heavy vibration makes interfaces come to life. Small touches on a screen to manipulate digital versions of real-world items, such as flipping over a digital book, rotating a knob in a game, rotating a 3D item to view all angles, a click sound when a button is touched, etc. Exemplify a digital object's weight and gravity, which makes a lot of difference.</p>
                               </div>
                               <div class="modal-footer">
                                 <button class="btn btn-fab btn-raised btn-material-red" data-dismiss="modal"><i class="mdi-content-clear"></i></button>
@@ -494,8 +579,12 @@
                     </div>                  
      
      
-                   <div class="col-sm-4">
+                   <div class="col-sm-6">
                         <div class="card">
+                       		<div class="image">
+                            	<img src="dist/images/human-voice.jpg">
+                                <span class="title"></span>
+                            </div>
                             <div class="content"><h2>Give your interface a human voice.</h2></div>
                             <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog14"><i class="mdi-navigation-arrow-forward"></i></button></div>
                         </div>
@@ -507,6 +596,10 @@
                                 <h2 class="modal-title">Give your interface a human voice.</h2>
                               </div>
                               <div class="modal-body">
+                              	<div class="image">
+                                    <img src="dist/images/human-voice.jpg">
+                                    <span class="title"></span>
+                                </div>
                                 <p>Do this if feasible. Users recognized that a standardized, digital-sounding service wasn't very user-friendly, and identified to make it feel more human. Thus, services that offer human-sounding tools to read content on a website sprung.</p>
                             <p>Or, you can create a podcast or a video relating to the content. When people hear human voices, it adds authenticity and trustworthiness to the information.</p>
                               </div>
@@ -518,8 +611,12 @@
                     </div>  
      
     
-                   <div class="col-sm-4">
+                   <div class="col-sm-6">
                         <div class="card">
+                        	<div class="image">
+                            	<img src="dist/images/design-dialogs.jpg">
+                                <span class="title"></span>
+                            </div>
                             <div class="content"><h2>Design dialogs to yield closure.</h2></div>
                             <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog15"><i class="mdi-navigation-arrow-forward"></i></button></div>
                         </div>
@@ -531,6 +628,10 @@
                                 <h2 class="modal-title">Design dialogs to yield closure.</h2>
                               </div>
                               <div class="modal-body">
+                              	<div class="image">
+                                    <img src="dist/images/design-dialogs.jpg">
+                                    <span class="title"></span>
+                                </div>
                                 <p>The interface should be designed in a way it smoothly guides its user to accomplish an action. The perfect example is the Amazon shopping cart. It has a 4-step process to its shopping feature.</p>
                                 <ul>
                                     <li>Sign in: Sign In to your Amazon account</li>
@@ -548,8 +649,12 @@
      
     
     
-                   <div class="col-sm-4">
+                   <div class="col-sm-6">
                         <div class="card">
+                        	<div class="image">
+                                <img src="dist/images/customer-service.jpg">
+                                <span class="title"></span>
+                            </div>
                             <div class="content"><h2>Assign effective customer service.</h2></div>
                             <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog16"><i class="mdi-navigation-arrow-forward"></i></button></div>
                         </div>
@@ -561,6 +666,10 @@
                                 <h2 class="modal-title">Assign effective customer service.</h2>
                               </div>
                               <div class="modal-body">
+                              	<div class="image">
+                                    <img src="dist/images/customer-service.jpg">
+                                    <span class="title"></span>
+                                </div>
                                 <p>Do this even for small interface errors.</p>
                                 <p> For forms, use as minimal amount of form fields needed for the information you need.</p>
                             <p>For very long forms, segment the forms so users will not be overwhelmed by the amount of information they need to fill in - make it obvious to the user that multiple sections are coming up.</p>
@@ -576,8 +685,12 @@
                     </div> 
     
     
-                   <div class="col-sm-4">
+                   <div class="col-sm-6">
                         <div class="card">
+                        	<div class="image">
+                                <img src="dist/images/easy-reversal-of-roles.jpg">
+                                <span class="title"></span>
+                            </div>
                             <div class="content"><h2>Permit easy reversal of actions.</h2></div>
                             <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog17"><i class="mdi-navigation-arrow-forward"></i></button></div>
                         </div>
@@ -589,6 +702,10 @@
                                 <h2 class="modal-title">Permit easy reversal of actions.</h2>
                               </div>
                               <div class="modal-body">
+                              	<div class="image">
+                                    <img src="dist/images/easy-reversal-of-roles.jpg">
+                                    <span class="title"></span>
+                                </div>
                                 <p>Traditionally, the back button does this trick when trying to go back the previous page. This works well when viewing websites on a desktop. But when you are on a mobile gadget, the back button is not always visible. So your interfaces must be  well-designed that impertinent information is accessible without the need of the back button.</p>                        
                               </div>
                               <div class="modal-footer">
@@ -599,9 +716,13 @@
                     </div> 
     
     
-                  <div class="col-sm-4">
+                  <div class="col-sm-6">
                         <div class="card">
-                            <div class="content"><h2>Apply the K.I.S.S. Principle.</h2></div>
+                        	<div class="image">
+                            	<img src="dist/images/kiss-principle.jpg">
+                                <span class="title"></span>
+                            </div>
+                            <div class="content"><h2>Apply the K.I.S.S. Principle on websites.</h2></div>
                             <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog18"><i class="mdi-navigation-arrow-forward"></i></button></div>
                         </div>
                     </div>
@@ -612,6 +733,10 @@
                                 <h2 class="modal-title">Apply the K.I.S.S. Principle.</h2>
                               </div>
                               <div class="modal-body">
+                              	<div class="image">
+                                    <img src="dist/images/kiss-principle.jpg">
+                                    <span class="title"></span>
+                                </div>
                                 <p> KISS (Keep It Simple and Stupid) is a design principle noted by the U.S. Navy in the 1960s. This principle states that most systems work best if they are kept simple rather than otherwise.</p>
                             <p>A famous study suggests that humans can store only about 7 pieces of information in their short-term memory. To reduce short-term memory load, design screens where options are clearly visible, and actions are so simple a baby would be easily be directed to it.</p>                      
                               </div>
@@ -623,8 +748,12 @@
                     </div> 
     
     
-                  <div class="col-sm-4">
+                  <div class="col-sm-6">
                         <div class="card">
+                       		<div class="image">
+                            	<img src="dist/images/customization-works.jpg">
+                                <span class="title"></span>
+                            </div>
                             <div class="content"><h2>Customization works. Give users control.</h2></div>
                             <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog19"><i class="mdi-navigation-arrow-forward"></i></button></div>
                         </div>
@@ -636,6 +765,10 @@
                                 <h2 class="modal-title">Customization works. Give users control.</h2>
                               </div>
                               <div class="modal-body">
+                              	<div class="image">
+                                    <img src="dist/images/customization-works.jpg">
+                                    <span class="title"></span>
+                                </div>
                                 <p> In a business website, offering ways to personalize a service is a good way to entice users. If feasible, try to create an interactive way to invite user engagement. Retail brands such as Nike, offers an interactive interface to customize your own shoe. You can build your own car with <a href="http://www.bmwusa.com/Standard/Content/BYO/Default.aspx" target="_blank">BMW</a>. Want a shirt that speaks of you, head over to <a href="http://www.spreadshirt.com/design-your-own-t-shirt-C59" target="_blank">Spreadshirt</a>.</p>               
                               </div>
                               <div class="modal-footer">
@@ -646,8 +779,12 @@
                     </div> 
     
     
-                  <div class="col-sm-4">
+                  <div class="col-sm-6">
                         <div class="card">
+                       		<div class="image">
+                                <img src="dist/images/non-audio-readable.jpg">
+                                <span class="title"></span>
+                            </div>
                             <div class="content"><h2>Make non-audio elements readable.</h2></div>
                             <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog20"><i class="mdi-navigation-arrow-forward"></i></button></div>
                         </div>
@@ -659,6 +796,10 @@
                                 <h2 class="modal-title">Make non-audio elements readable.</h2>
                               </div>
                               <div class="modal-body">
+                              	<div class="image">
+                                    <img src="dist/images/non-audio-readable.jpg">
+                                    <span class="title"></span>
+                                </div>
                                 <p>When the majority of information relies on visual (non-audio) technology, make sure it's readable.</p>
                                 <ul>
                                     <li>People perceive using all capitals as shouting. So use uppercase sparingly on only for headlines</li>
@@ -676,9 +817,13 @@
                     </div>   
      
      
-                  <div class="col-sm-4">
+                  <div class="col-sm-6">
                         <div class="card">
-                            <div class="content"><h2>Never stop improving.</h2></div>
+                        	<div class="image">
+                                <img src="dist/images/never-stop-improving.jpg">
+                                <span class="title"></span>
+                            </div>
+                            <div class="content"><h2>Never stop improving for success.</h2></div>
                             <div class="action"><button class="btn btn-fab btn-raised btn-material-red" data-toggle="modal" data-target="#complete-dialog21"><i class="mdi-navigation-arrow-forward"></i></button></div>
                         </div>
                     </div>
@@ -689,6 +834,10 @@
                                 <h2 class="modal-title">Never stop improving.</h2>
                               </div>
                               <div class="modal-body">
+                              	<div class="image">
+                                    <img src="dist/images/never-stop-improving.jpg">
+                                    <span class="title"></span>
+                                </div>
                                 <p>Based on your website's analytics, you already got amazing data. You think you've found the pot of gold. But there's always ways to improve. You don't have to do a major change to your website design or content. Sometimes, a simple call-to-action change from “Learn More” to “Discover More” can spell a big difference in user engagement.</p>             
                               </div>
                               <div class="modal-footer">
@@ -696,14 +845,7 @@
                               </div>
                             </div>
                         </div>
-                    </div>   
-      
-      				<br clear="all" />
-                    <br clear="all" />
-                    
-                     <div class="col-sm-6"><p>Now, with Google's strict algorithms, search has become more concise, relevant and informative. Quality content has more authority over quantity. This change brought standards to offer user-friendly interfaces for easy access to information. Technology evolved to adhere to user behaviour. </p></div>
-    	             <div class="col-sm-6"><p>So regardless of whatever digital product (e.g. website, app, software) you are creating, your interface will need to be simple and user-friendly that the task feels humane rather than automated. While the internet gifted the world with easy automation of almost everything, the human brain is geared towards finding the place it feels more comfortable with. Thus, the importance of creating user-friendly digital products your user's will build affinity with.</p></div>
-      
+                    </div>        
       
                 </div>
                 <div class="col-xs-1"></div>
@@ -715,7 +857,8 @@
     
     
     
-    <section class="conclusion">
+    <section id="conclusion">
+    	<a name="conclusion"></a>
         <div class="container">
         	<div class="row">      
             	<div class="col-xs-1"></div>
@@ -725,9 +868,12 @@
 	                	<p>The value of service, digital or physical, manual or automated, is on the experience. A good digital product must incorporate the same values we take in the real world, user-friendly, accessible, supportive and flexible. Imagine dining in a classy restaurant with a waitress that fill your wine without you knowing they've been near your table.</p>        
     				</div>
                     <div class="col-sm-6">
-	                	<p>This is how technology works today. It's a friendly artificial entity that works like a ninja. It learns everything about you. It works according to your preferences. Combine automation with human elements, and we're in the path of fulfilling user needs that can benefit everyone's lives.</p>
+	                	<p>This is how technology works today. It's a friendly artificial entity that works like a ninja. It learns everything about you. It works according to your preferences. Combine automation with human elements, and we're on the path of fulfilling user needs that can benefit everyone's lives.</p>
 					</div>
-    			</div>
+    			
+                	<div class='shareaholic-canvas' data-app='share_buttons' data-app-id='16320509'></div>
+                
+                </div>
                 <div class="col-xs-1"></div>
             </div>
         </div>
@@ -736,20 +882,56 @@
 
 
 	<section class="visit">
+    	<a name="visit"></a>
         <div class="container">
         	<!-- Example row of columns -->
             <div class="row">
             	<div class="col-xs-1"></div>
                 <div class="col-xs-10">
                 	<div class="col-sm-6">
-                    	<h2>Heading</h2>
-                 		<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                  		<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                    	<h2>Leave us a message?</h2>
+                 		<p>Do you have a question or inquiry for us?</p>
+                        
+                  		<form  id="contactusForm" role="form" onsubmit="return false;"  class="form-horizontal" role="form">     
+                          <div class="form-group">
+                            <div class="input-group">
+                              <div class="input-group-addon"><span class="mdi-action-account-circle" aria-hidden="true"></span></div>
+                              <input type="name" class="form-control floating-label" id="focusedInput" placeholder="Name" name="data[name]" required>
+                            </div>
+                          </div>
+            
+                          <div class="form-group">
+                            <div class="input-group">
+                              	<div class="input-group-addon"><span class="mdi-communication-email" aria-hidden="true"></span></div>   
+                                <input type="email" class="form-control floating-label" placeholder="Email" name="data[email]" required>
+                            </div>
+                          </div>  
+                            
+                          <div class="form-group">
+                            <div class="input-group">
+                              <div class="input-group-addon"><span class="mdi-content-create" aria-hidden="true"></span></div>
+                              <textarea placeholder="Your Message" class="form-control floating-label" name="data[message]" required></textarea>
+                            </div>
+                          </div>           
+            
+                          <div class="form-group">  
+                                <div id="contactNotif" style='display:none;' ></div>
+                                <button name="submit" type="submit" class="btn btn-danger btn-lg" onClick="">Submit</button>
+                          </div>               
+                        </form>
                     </div>
                 	<div class="col-sm-6">
-                    	<h2>Heading</h2>
-                 		<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                  		<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                    	<h2>Viiworks Info</h2>
+                 		<p>For help on growing your market by optimizing your website for human, you can contact us via the following:</p>
+            			<p><span class="mdi-communication-email" aria-hidden="true"></span> <a href="mailto:info@viiworks.com">info@viiworks.com</a></p>
+            			<p><span class="mdi-communication-call" aria-hidden="true"></span> (PH) +632-846-8844</p>
+            			<p><span class="mdi-hardware-laptop-chromebook" aria-hidden="true"></span> <a href="http://www.viiworks.com" target="_blank">viiworks.com</a></p>
+                  		<div class="social-media">
+                            <a href="https://www.facebook.com/viiworks" target="_blank"><img src="dist/images/icon-facebook.png" width="54" height="54" /></a>
+                            <a href="https://twitter.com/viiworks" target="_blank"><img src="dist/images/icon-twitter.png" width="54" height="54" /></a>
+                            <a href="https://plus.google.com/+ViiworksInc/posts" target="_blank"><img src="dist/images/icon-googleplus.png" width="54" height="54" /></a>
+                            <a href="https://www.linkedin.com/company/viiworks" target="_blank"><img src="dist/images/icon-linkedin.png" width="54" height="54" /></a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-xs-1"></div>
@@ -761,13 +943,39 @@
 	<footer>
     	<div class="container">
         	<div class="row">
-        		<hr>
-        		<p>&copy; Company 2014</p>   
-        	</div> <!-- end.row --> 
+            
+            	<hr />
+                
+                <div class="col-xs-1"></div>
+                <div class="col-xs-10">
+
+					<form  id="subscribeForm" role="form" onsubmit="return false;"  class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-addon"><span class="mdi-communication-email" aria-hidden="true"></span> </div>
+                                	<input type="email" class="form-control floating-label" id="emailSubscribe" placeholder="Subscribe with your Email to be updated on future chapters and courses" name="data[email]" required>
+                            	</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-addon"></div>
+                                	<button name="submit" type="submit" class="btn btn-danger btn-lg" onClick="">Submit</button>
+                            	</div>
+                        </div>
+                                
+                           
+                        </div>     
+                    </form>
+                    <p>Copyright &copy;<?php echo date("Y") ?></p>            	
+                </div>
+    	
+        		<div class="col-xs-1"></div>  
+        	
+            </div> <!-- end.row --> 
         </div> <!-- end.container -->
     </footer>
 	
-
 
 
     <!-- Bootstrap core JavaScript
@@ -780,12 +988,35 @@
     <script src="dist/js/eskju.jquery.scrollflow.js"></script>
     <script src="dist/js/ripples.min.js"></script>
     <script src="dist/js/material.min.js"></script>
+    <script src="dist/js/scrolling-nav.js"></script>
+    <script src="dist/js/jquery.easing.min.js"></script>
+    
     <script>
         $(document).ready(function() {
         // This command is used to initialize some elements and make them work properly
             $.material.init();
-        });
+        });	
     </script>    
+    
+    <script type="text/javascript">
+	//<![CDATA[
+	  (function() {
+		var shr = document.createElement('script');
+		shr.setAttribute('data-cfasync', 'false');
+		shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
+		shr.type = 'text/javascript'; shr.async = 'true';
+		shr.onload = shr.onreadystatechange = function() {
+		  var rs = this.readyState;
+		  if (rs && rs != 'complete' && rs != 'loaded') return;
+		  var site_id = '36c5f8289fe3fad8720f14b5c07f181b';
+		  try { Shareaholic.init(site_id); } catch (e) {}
+		};
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(shr, s);
+	  })();
+	//]]>
+	</script>
+    
     
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="docs/assets/js/ie10-viewport-bug-workaround.js"></script>

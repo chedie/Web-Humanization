@@ -7090,58 +7090,170 @@ body {
 
 /* line 27, ../../stylesheets/stylesheet.scss */
 .navbar {
+  background-color: #bf360c !important;
   clear: both;
-  float: left; }
+  float: left;
+  height: auto;
+  margin: 0;
+  padding: 0 1em !important;
+  width: 100%; }
 
-/* line 32, ../../stylesheets/stylesheet.scss */
+/* line 39, ../../stylesheets/stylesheet.scss */
+.navbar-fixed-top {
+  margin: 0 !important;
+  position: relative !important; }
+
+/* line 50, ../../stylesheets/stylesheet.scss */
 section {
   clear: both;
   float: left;
   width: 100%; }
-  /* line 37, ../../stylesheets/stylesheet.scss */
+  /* line 56, ../../stylesheets/stylesheet.scss */
   section.humanization {
-    background: yellow;
+    background-image: url(../images/humanization.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    color: #efeded;
+    min-height: 100vh;
+    text-shadow: 1px 1px 1px #000000; }
+    /* line 67, ../../stylesheets/stylesheet.scss */
+    section.humanization h1 {
+      font-size: 5em; }
+      @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        /* line 67, ../../stylesheets/stylesheet.scss */
+        section.humanization h1 {
+          font-size: 2.5em; } }
+      @media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+        /* line 67, ../../stylesheets/stylesheet.scss */
+        section.humanization h1 {
+          font-size: 2em; } }
+  /* line 80, ../../stylesheets/stylesheet.scss */
+  section#history {
+    background-color: #fafafa;
     min-height: 100vh; }
-  /* line 42, ../../stylesheets/stylesheet.scss */
-  section.history {
-    background-image: url(../../images/history-of-technology.jpg);
+    /* line 86, ../../stylesheets/stylesheet.scss */
+    section#history h1 {
+      font-size: 2.5em; }
+  /* line 93, ../../stylesheets/stylesheet.scss */
+  section#psychology {
+    background-image: url(../images/human-psychology.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    color: #efeded;
+    min-height: 100vh;
+    text-shadow: 1px 1px 1px #000000; }
+    /* line 104, ../../stylesheets/stylesheet.scss */
+    section#psychology h1 {
+      font-size: 2.5em; }
+  /* line 111, ../../stylesheets/stylesheet.scss */
+  section#way-we-think {
+    background-attachment: fixed;
+    background-image: url(../images/humanization-ways.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
     min-height: 100vh; }
-  /* line 52, ../../stylesheets/stylesheet.scss */
-  section.psychology {
-    background: green;
+    /* line 121, ../../stylesheets/stylesheet.scss */
+    section#way-we-think h1 {
+      font-size: 2.5em;
+      color: #fff;
+      text-shadow: 1px 1px 1px #000000; }
+  /* line 131, ../../stylesheets/stylesheet.scss */
+  section#humanization-ways {
+    background-color: #fafafa;
     min-height: 100vh; }
-  /* line 57, ../../stylesheets/stylesheet.scss */
-  section.humanization-ways {
-    background: purple;
+    /* line 138, ../../stylesheets/stylesheet.scss */
+    section#humanization-ways h1 {
+      font-size: 2.5em; }
+  /* line 145, ../../stylesheets/stylesheet.scss */
+  section#addicting {
+    background-color: #fafafa;
     min-height: 100vh; }
-  /* line 62, ../../stylesheets/stylesheet.scss */
-  section.addicting {
-    background: pink;
-    min-height: 100vh; }
-  /* line 67, ../../stylesheets/stylesheet.scss */
-  section.changing {
+    /* line 151, ../../stylesheets/stylesheet.scss */
+    section#addicting h1 {
+      font-size: 2.5em; }
+  /* line 159, ../../stylesheets/stylesheet.scss */
+  section#conclusion {
+    background-attachment: fixed;
+    background-image: url(../images/conclusion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    text-shadow: 1px 1px 1px #ccc; }
+    /* line 169, ../../stylesheets/stylesheet.scss */
+    section#conclusion h1 {
+      font-size: 2.5em; }
+  /* line 176, ../../stylesheets/stylesheet.scss */
+  section#changing {
     background: orange;
     min-height: 100vh; }
-  /* line 73, ../../stylesheets/stylesheet.scss */
+    /* line 180, ../../stylesheets/stylesheet.scss */
+    section#changing h1 {
+      font-size: 2.5em; }
+  /* line 188, ../../stylesheets/stylesheet.scss */
   section .row {
     padding: 6em 0;
     vertical-align: middle; }
-    /* line 77, ../../stylesheets/stylesheet.scss */
+    @media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+      /* line 192, ../../stylesheets/stylesheet.scss */
+      section .row .col-xs-1 {
+        display: .5em; } }
+    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+      /* line 199, ../../stylesheets/stylesheet.scss */
+      section .row .col-xs-1 {
+        padding: .5em; } }
+    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+      /* line 205, ../../stylesheets/stylesheet.scss */
+      section .row .col-xs-10 {
+        padding: 0; } }
+    @media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+      /* line 212, ../../stylesheets/stylesheet.scss */
+      section .row .col-xs-10,
+      section .row .col-sm-6 {
+        padding: 0; } }
+    /* line 221, ../../stylesheets/stylesheet.scss */
+    section .row .modal-body img {
+      padding: 1em 0;
+      width: 100%; }
+    /* line 227, ../../stylesheets/stylesheet.scss */
     section .row #dialog h2 {
       font-size: 1em;
       font-weight: 400;
       margin: 0;
       padding: 1em; }
-    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-      /* line 73, ../../stylesheets/stylesheet.scss */
-      section .row {
-        font-size: 2.2em;
-        padding: 3em; } }
-    @media screen and (min-device-width: 320px) and (max-device-width: 640px) {
-      /* line 73, ../../stylesheets/stylesheet.scss */
-      section .row {
-        font-size: 1em;
-        padding: .5em; } }
+
+/* line 243, ../../stylesheets/stylesheet.scss */
+#input h2 {
+  padding: 1em;
+  font-size: 1em;
+  font-weight: 400; }
+/* line 251, ../../stylesheets/stylesheet.scss */
+#input .inputs {
+  width: 80%; }
+  /* line 254, ../../stylesheets/stylesheet.scss */
+  #input .inputs .form-control-wrapper {
+    margin: 30px 0; }
+
+/* line 262, ../../stylesheets/stylesheet.scss */
+.dropdownjs:after {
+  content: none !important; }
+
+/* line 269, ../../stylesheets/stylesheet.scss */
+#dropdown-menu h2 {
+  padding: 14px;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400; }
+/* line 276, ../../stylesheets/stylesheet.scss */
+#dropdown-menu .sample {
+  width: 200px; }
+/* line 280, ../../stylesheets/stylesheet.scss */
+#dropdown-menu .form-group {
+  margin: 30px 0; }
+
+/* line 288, ../../stylesheets/stylesheet.scss */
+#subscribeForm .btn {
+  float: left;
+  clear: both; }
